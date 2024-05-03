@@ -7,6 +7,7 @@ import LoadMoreButton from "./load-more-button";
 import TestCors from "./components/test-cors";
 import TreeView from "./tree-view";
 import { menus } from "./tree-view/data";
+import ItemList from "./components/test";
 
 function App() {
   return (
@@ -27,6 +28,11 @@ function App() {
 
       {/* TreeView Component / recursive navigation menu */}
       <TreeView menus={menus} />
+
+      {/* Testing */}
+{/*       
+      <ItemList /> */}
+
     </div>
   );
 }
