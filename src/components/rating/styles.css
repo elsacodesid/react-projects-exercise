@@ -1,0 +1,15 @@
+.rating {
+
+    margin-top : 20%;
+    margin-bottom: 50%; 
+
+
+}
+
+.active {
+    color: yellow;
+}
+
+.inactive {
+    color: white;
+}
