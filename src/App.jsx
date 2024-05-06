@@ -8,6 +8,8 @@ import TestCors from "./components/test-cors";
 import TreeView from "./tree-view";
 import { menus } from "./tree-view/data";
 import ItemList from "./components/test";
+import QRCodeGenerator from "./components/qr-code-generator";
+import LightDarkMode from "./components/light-dark-mode";
 
 function App() {
   return (
@@ -27,12 +29,17 @@ function App() {
       {/* <TestCors /> */}
 
       {/* TreeView Component / recursive navigation menu */}
-      <TreeView menus={menus} />
+      {/* <TreeView menus={menus} /> */}
 
       {/* Testing */}
-{/*       
+      {/*       
       <ItemList /> */}
 
+      {/* QR Code Generator */}
+      {/* <QRCodeGenerator /> */}
+
+      {/* Light Dark Mode */}
+      <LightDarkMode />
     </div>
   );
 }
