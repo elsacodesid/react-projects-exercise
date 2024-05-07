@@ -24,7 +24,7 @@
 
 .tab-item.active{
     border-color: black;
-    background: rgb(4, 103, 196);
+    background:rgb(4, 103, 196) ;
     color: white;
 
 }
