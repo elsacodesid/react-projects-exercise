@@ -13,6 +13,9 @@ import LightDarkMode from "./components/light-dark-mode";
 import ScrollIndicator from "./components/scroll-indicator";
 import TabTest from "./components/custom-tabs/tabs-test";
 import ModalTest from "./components/modal-popup/modal-test";
+import GithubProfileFinder from "./components/github-profile-finder";
+import SearchAutocomplete from "./components/search-autocomplete";
+import TicTacToe from "./components/tic-tac-toe";
 
 function App() {
   return (
@@ -51,7 +54,16 @@ function App() {
       {/* <TabTest /> */}
 
       {/* Modal Popup */}
-      <ModalTest />
+      {/* <ModalTest /> */}
+
+      {/* Github profile finder */}
+      {/* <GithubProfileFinder /> */}
+
+      {/*  Autocomplete api */}
+      {/* <SearchAutocomplete /> */}
+
+      {/* Tic Tac Toe */}
+      <TicTacToe />
     </div>
   );
 }
