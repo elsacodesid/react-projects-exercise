@@ -4,7 +4,7 @@ const dummyApiResponse = {
   showTicTacToe: false,
 };
 
-function featureFlagsDataServiceCall() {
+function featureFlagsDataServiceCall() {3
   return new Promise((resolve, reject) => {
     if (dummyApiResponse) setTimeout(resolve(dummyApiResponse), 500);
     else reject("Some error occurred, please try again");

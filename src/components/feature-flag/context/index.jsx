@@ -21,7 +21,7 @@ export default function FeatureFlagGlobalState({ children }) {
 
     }
   }
-  useEffect(() => {
+  useEffect(() => { 
     fetchFeatureFlags();
   }),
     [];
