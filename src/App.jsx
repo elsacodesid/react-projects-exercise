@@ -22,6 +22,8 @@ import UseOnClickOutsideTest from "./components/use-outside-click/test";
 import UseWindowResizeTest from "./components/use-window-resize/test";
 import UseFetchTest from "./components/use-fetch/test";
 import ScrollTopBottom from "./components/scroll-top-bottom";
+import ScrollToSection from "./components/scroll-to-section/scroll";
+import WeatherApp from "./components/weather-app/weather-app";
 
 
 function App() {
@@ -86,7 +88,13 @@ function App() {
       {/* <UseFetchTest /> */}
 
       {/* Scroll Top Bottom */}
-      <ScrollTopBottom />
+      {/* <ScrollTopBottom /> */}
+
+      {/* Scroll to a particular section */}
+      {/* <ScrollToSection /> */}
+
+      {/* Weather App */}
+<WeatherApp />
      
     </div>
   );
